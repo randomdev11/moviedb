@@ -4,6 +4,10 @@
       "defaultPrefix":"/genre/",
       "values":[
          {
+            "name": "Te gjitha",
+            "url": "",
+         },
+         {
             "name":"+18",
             "url":"/genre/18"
          },
