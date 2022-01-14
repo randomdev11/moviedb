@@ -60,7 +60,7 @@
                 },
                 "servers": {
                     "type": "ATTRIB",
-                    "attrib": "src",
+                    "attrib": "href",
                     "address": "div.player_nav > ul > li > a"
                 }
             },
