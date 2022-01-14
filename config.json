@@ -8,6 +8,10 @@
             "url": ""
          },
          {
+            "name":"Sci-Fi",
+            "url":"/genre/fantashkence"
+         },
+         {
             "name":"+18",
             "url":"/genre/18"
          },
@@ -34,6 +38,10 @@
          {
             "name":"Indian",
             "url":"/country/india"
+         },
+         {
+            "name":"Francez",
+            "url":"/country/france"
          }
       ]
    },
