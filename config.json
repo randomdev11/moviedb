@@ -1,0 +1,108 @@
+{
+    "host": "https://filma24.app/",
+    "scrapping": {
+        "selectors": {
+            "categories": {
+                "type": "TITLE",
+                "address": "#menu-item-809 > div > ul > li > a"
+            },
+            "movie": {
+                "title": {
+                    "type": "ATTRIB",
+                    "attrib": "oldtitle",
+                    "address": "div.ml-item > a.movie-play-icon"
+                },
+                "url": {
+                    "type": "ATTRIB",
+                    "attrib": "href",
+                    "address": "div.ml-item > a.movie-play-icon"
+                },
+                "categories": {
+                    "type": "TITLE",
+                    "address": "div.ml-item div.item-info > p"
+                },
+                "banner": {
+                    "type": "ATTRIB",
+                    "attrib": "src",
+                    "address": "div.main-ml-mask > a.movie-play-icon > div:first-child > img"
+                },
+                "rating": {
+                    "type": "TITLE",
+                    "address": "a.movie-play-icon > div.ml-mask.jt.movie-thumb > span:last-child"
+                },
+                "quality": {
+                    "type": "TITLE",
+                    "address": "a.movie-play-icon > div.ml-mask.jt.movie-thumb > span:first-child"
+                }
+            },
+            "movieDetails": {
+                "banner": {
+                    "type": "ATTRIB",
+                    "attrib": "src",
+                    "address": "div.mvi-content img.hidden"
+                },
+                "title": {
+                    "type": "TITLE",
+                    "address": "div.mvi-content > div.mvic-desc > h3"
+                },
+                "categories": {
+                    "type": "TITLE",
+                    "address": "div.mvi-content div.mvici-left > p > a"
+                },
+                "description": {
+                    "type": "TITLE",
+                    "address": "div.mvi-content p.f-desc"
+                },
+                "link": {
+                    "type": "ATTRIB",
+                    "attrib": "src",
+                    "address": "div.movieplay > iframe"
+                },
+                "servers": {
+                    "type": "ATTRIB",
+                    "attrib": "src",
+                    "address": "div.player_nav > ul > li > a"
+                }
+            },
+            "seriesDetails": {
+                "banner": {
+                    "type": "ATTRIB",
+                    "attrib": "src",
+                    "address": "div.mvi-content img.hidden"
+                },
+                "title": {
+                    "type": "TITLE",
+                    "address": "div.mvi-content > div.mvic-desc > h3"
+                },
+                "categories": {
+                    "type": "TITLE",
+                    "address": "div.mvi-content div.mvici-left > p > a"
+                },
+                "description": {
+                    "type": "TITLE",
+                    "address": "div.mvi-content p.f-desc"
+                },
+                "rating": {
+                    "type": "TITLE",
+                    "address": "span.imdb-r"
+                }
+            },
+            "episode": {
+                "banner": {
+                    "type": "ATTRIB",
+                    "attrib": "src",
+                    "address": "div.tvseasons div.ml-item div.ml-mask.jt.movie-thumb > img"
+                },
+                "title": {
+                    "type": "TITLE",
+                    "address": "div.tvseasons div.ml-item div.item-info > a"
+                },
+                "link": {
+                    "type": "ATTRIB",
+                    "attrib": "href",
+                    "address": "div.tvseasons div.ml-item div.item-info > a"
+                }
+            }
+        }
+    }
+}
