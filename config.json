@@ -1,5 +1,7 @@
 {
    "host":"https://filma24.app/",
+   "paginationFormat": "/page/{pageNumber}/",
+   "seriesPath": "/seriale",
    "categories":{
       "defaultPrefix":"/genre/",
       "values":[
