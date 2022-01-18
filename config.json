@@ -2,6 +2,7 @@
    "host":"https://filma24.app/",
    "paginationFormat":"/page/{pageNumber}/",
    "seriesPath":"/seriale",
+   "featuredMoviesTitle": "Old school",
    "featuredMovies":[
       {
          "imagePath":"https://filma24.app/wp-content/uploads/2022/01/Red-snow-me-titra-shqip.jpg",
