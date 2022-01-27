@@ -1,5 +1,5 @@
 {
-   "host":"https://filma24.bz/",
+   "host":"https://filma24.app/",
    "paginationFormat":"/page/{pageNumber}/",
    "seriesPath":"/seriale",
    "featuredMoviesTitle": "Old school",
