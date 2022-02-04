@@ -83,7 +83,7 @@
             },
             "categories":{
                "type":"TITLE",
-               "address":"div.ml-item div.item-info > p"
+               "address":"div.single-movie > div > div.tags > ul"
             },
             "banner":{
                "type":"ATTRIB",
