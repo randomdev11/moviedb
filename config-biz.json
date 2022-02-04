@@ -89,7 +89,7 @@
                "type":"ATTRIB",
                "attrib":"style",
                "address":"div.single-movie div.xtt",
-               "regex": "test"
+               "regex": "\(http\|ftp\|https\)\:\\\/\\\/\(\[\\w_\-\]\+\(\?\:\(\?\:\\\.\[\\w_\-\]\+\)\+\)\)\(\[\\w\.,@\?\^\=%&\:\\\/~\+\#\-\]\*\[\\w@\?\^\=%&\\\/~\+\#\-\]\)"
             },
             "rating":{
                "type":"TITLE",
