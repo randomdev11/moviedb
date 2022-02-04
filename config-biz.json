@@ -73,9 +73,8 @@
          },
          "movie":{
             "title":{
-               "type":"ATTRIB",
-               "attrib":"oldtitle",
-               "address":"div.ml-item > a.movie-play-icon"
+               "type":"TITLE",
+               "address":"div.single-movie > div.under-thumb h4"
             },
             "url":{
                "type":"ATTRIB",
@@ -88,8 +87,9 @@
             },
             "banner":{
                "type":"ATTRIB",
-               "attrib":"src",
-               "address":"div.main-ml-mask > a.movie-play-icon > div:first-child > img"
+               "attrib":"style",
+               "address":"div.single-movie div.xtt",
+               "regex": "(?<=background-image: url\\()[^\\)]+"
             },
             "rating":{
                "type":"TITLE",
