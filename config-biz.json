@@ -89,7 +89,7 @@
                "type":"ATTRIB",
                "attrib":"style",
                "address":"div.single-movie div.xtt",
-               "regex": ""
+               "regex": "test"
             },
             "rating":{
                "type":"TITLE",
