@@ -79,7 +79,7 @@
             "url":{
                "type":"ATTRIB",
                "attrib":"href",
-               "address":"div.ml-item > a.movie-play-icon"
+               "address":"div.single-movie > div.under-thumb > a"
             },
             "categories":{
                "type":"TITLE",
