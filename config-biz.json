@@ -74,7 +74,7 @@
          "movie":{
             "title":{
                "type":"TITLE",
-               "address":"div.single-movie > div.under-thumb h4"
+               "address":"div.single-movie > div.under-thumb > a > h4"
             },
             "url":{
                "type":"ATTRIB",
