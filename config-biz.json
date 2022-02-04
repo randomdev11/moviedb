@@ -93,11 +93,11 @@
             },
             "rating":{
                "type":"TITLE",
-               "address":"a.movie-play-icon > div.ml-mask.jt.movie-thumb > span:last-child"
+               "address":"div.single-movie > a > div > div.imdb-poster"
             },
             "quality":{
                "type":"TITLE",
-               "address":"a.movie-play-icon > div.ml-mask.jt.movie-thumb > span:first-child"
+               "address":"div.single-movie > a > div > div.quality-poster"
             }
          },
          "movieDetails":{
