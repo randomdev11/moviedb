@@ -69,7 +69,7 @@
       "selectors":{
          "categories":{
             "type":"TITLE",
-            "address":"#menu-item-809 > div > ul > li > a"
+            "address":"ul#menu-second-menu > li > a > span"
          },
          "movie":{
             "title":{
