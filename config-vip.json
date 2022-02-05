@@ -1,6 +1,8 @@
 {
    "host":"https://filma24.vip/",
    "paginationFormat":"/page/{pageNumber}/",
+   "searchFormat": "?s={search}",
+    "categoryFormat": "/genre/{category}",
    "seriesPath":"/seriale",
    "featuredMoviesTitle": "Old school",
    "featuredMovies":[
