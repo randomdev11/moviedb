@@ -1,6 +1,7 @@
 {
    "host":"https://filma24.bz/",
    "paginationFormat":"/page/{pageNumber}/",
+   "searchFormat": "search/{search}"
    "seriesPath":"/seriale",
    "featuredMoviesTitle": "Old school",
    "featuredMovies":[
@@ -108,25 +109,25 @@
             },
             "title":{
                "type":"TITLE",
-               "address":"div.mvi-content > div.mvic-desc > h3"
+               "address":"div.mvi-content div.main-info > div.title > h4"
             },
             "categories":{
                "type":"TITLE",
-               "address":"div.mvi-content div.mvici-left > p > a"
+               "address":"div.movie-info div.secondary-info > div.info-left > ul.genre"
             },
             "description":{
                "type":"TITLE",
-               "address":"div.mvi-content p.f-desc"
+               "address":"div.movie-optional > div.synopsis div.syn-wrapper > p"
             },
             "link":{
                "type":"ATTRIB",
                "attrib":"src",
-               "address":"div.movieplay > iframe"
+               "address":"div#plx > p > iframe"
             },
             "servers":{
                "type":"ATTRIB",
                "attrib":"href",
-               "address":"div.player_nav > ul > li > a"
+               "address":"div.tab-server > a"
             }
          },
          "seriesDetails":{
