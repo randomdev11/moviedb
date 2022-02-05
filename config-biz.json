@@ -118,7 +118,7 @@
             },
             "description":{
                "type":"TITLE",
-               "address":"div.movie-optional > div.synopsis div.syn-wrapper > p"
+               "address":"div.movie-optional > div.synopsis > div.syn-wrapper > p"
             },
             "link":{
                "type":"ATTRIB",
