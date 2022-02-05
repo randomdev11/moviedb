@@ -1,7 +1,8 @@
 {
    "host":"https://filma24.bz/",
    "paginationFormat":"/page/{pageNumber}/",
-   "searchFormat": "search/{search}"
+   "searchFormat": "search/{search}",
+   "categoryFormat": "/{category}",
    "seriesPath":"/seriale",
    "featuredMoviesTitle": "Old school",
    "featuredMovies":[
