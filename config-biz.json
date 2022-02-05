@@ -23,7 +23,7 @@
       }
    ],
    "categories":{
-      "defaultPrefix":"/genre/",
+      "defaultPrefix":"/",
       "values":[
          {
             "name":"Te gjitha",
