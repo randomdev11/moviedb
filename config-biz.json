@@ -110,7 +110,7 @@
             },
             "title":{
                "type":"TITLE",
-               "address":"div.mvi-content div.main-info > div.title > h4"
+               "address":"div.movie-info > div.main-info > div.title > h2"
             },
             "categories":{
                "type":"TITLE",
