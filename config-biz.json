@@ -129,7 +129,7 @@
             },
             "title":{
                "type":"TITLE",
-               "address":"div.mvi-content > div.mvic-desc > h3"
+               "address":"div.category-head > h3"
             },
             "categories":{
                "type":"TITLE",
