@@ -147,17 +147,18 @@
          "episode":{
             "banner":{
                "type":"ATTRIB",
-               "attrib":"src",
-               "address":"div.tvseasons div.ml-item div.ml-mask.jt.movie-thumb > img"
+               "attrib":"style",
+               "address":"div.movie-thumb > div",
+               "regex": "\\(http\\|ftp\\|https\\)\\:\\\\\\\/\\\\\\\/\\(\\[\\\\w_\\-\\]\\+\\(\\?\\:\\(\\?\\:\\\\\\.\\[\\\\w_\\-\\]\\+\\)\\+\\)\\)\\(\\[\\\\w\\.,@\\?\\^\\=%&\\:\\\\\\\/~\\+\\#\\-\\]\\*\\[\\\\w@\\?\\^\\=%&\\\\\\\/~\\+\\#\\-\\]\\)"
             },
             "title":{
                "type":"TITLE",
-               "address":"div.tvseasons div.ml-item div.item-info > a"
+               "address":"div.under-thumb.seriale > a > h4"
             },
             "link":{
                "type":"ATTRIB",
                "attrib":"href",
-               "address":"div.tvseasons div.ml-item div.item-info > a"
+               "address":"div.under-thumb.seriale > a"
             }
          }
       }
