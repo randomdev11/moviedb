@@ -100,7 +100,7 @@
             },
             "title":{
                "type":"TITLE",
-               "address":"div.itle > h2"
+               "address":"div.title > h2"
             },
             "categories":{
                "type":"TITLE",
