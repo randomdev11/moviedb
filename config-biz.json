@@ -145,6 +145,7 @@
             }
          },
          "episode":{
+            "splitterRegexp": "–",
             "banner":{
                "type":"ATTRIB",
                "attrib":"style",
