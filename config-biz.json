@@ -100,7 +100,7 @@
             },
             "title":{
                "type":"TITLE",
-               "address":"div.movie-info > div.main-info > div.title > h2"
+               "address":"div.itle > h2"
             },
             "categories":{
                "type":"TITLE",
@@ -108,7 +108,7 @@
             },
             "description":{
                "type":"TITLE",
-               "address":"div.movie-optional > div.synopsis > div.syn-wrapper > p"
+               "address":"div.syn-wrapper > p"
             },
             "link":{
                "type":"ATTRIB",
