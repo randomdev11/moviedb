@@ -1,5 +1,5 @@
 {
-   "host":"https://www.filma24.id/",
+   "host":"https://www.filma24.so/",
    "paginationFormat":"/page/{pageNumber}/",
    "searchFormat": "search/{search}",
    "categoryFormat": "/{category}",
