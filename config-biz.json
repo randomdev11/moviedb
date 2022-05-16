@@ -1,5 +1,5 @@
 {
-   "host":"https://www.filma24.so/",
+   "host":"https://www.filma24.ch/",
    "paginationFormat":"/page/{pageNumber}/",
    "searchFormat": "search/{search}",
    "categoryFormat": "/{category}",
